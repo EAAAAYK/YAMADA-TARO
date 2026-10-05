@@ -204,12 +204,12 @@ mainvisual
   line-height: 1em;
   letter-spacing: 0.2em;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .mainvisual {
     height: 500px;
   }
   .mainvisual::before {
-    background-image: url("/images/bg-top-kv-sp.png");
+    background-image: url("../images/bg-top-kv-sp.png");
     background-size: cover;
   }
   .mainvisual-text-wrapper {
